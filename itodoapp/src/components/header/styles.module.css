@@ -1,0 +1,27 @@
+.header{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 2rem;
+}
+
+.btn_filter{
+    --h-padding: 27px;
+    padding: 7px var(--h-padding) 8px;
+    background: #2b3a67;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: .875rem;
+    font-weight: 500;
+    text-shadow: none;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.btn_filter:hover,
+.active{
+    background: #4b64b1;
+}
